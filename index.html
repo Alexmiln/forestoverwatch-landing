@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <main class="main">
+      <header class="primary-header">
+        <div class="container">
+          <div class="primary-header__wrapper">
+            <a href="#" class="primary-header__logo"><img src="./images/logo.png" alt="Forest Overwatch" /></a>
+            <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+              <img class="icon-hamburger" src="./images/icon-burger.svg" alt="" aria-hidden="true" />
+              <img class="icon-close" src="./images/icon-close.svg" alt="" aria-hidden="true" />
+              <span class="visually-hidden">Menu</span>
+            </button>
+            <nav class="primary-navigation" id="primary-navigation">
+              <ul aria-label="Primary" role="list" class="primary-navigation__list">
+                <li class="primary-navigation__item"><a class="primary-navigation__link" href="#">Продукт</a></li>
+                <li class="primary-navigation__item"><a class="primary-navigation__link" href="#">Цена</a></li>
+                <li class="primary-navigation__item"><a class="primary-navigation__link" href="#">Вопрос-Ответ</a></li>
+                <li class="primary-navigation__item"><a class="primary-navigation__link" href="#">Помощь</a></li>
+              </ul>
+            </nav>
+            <button class="button button_sm | primary-header__button">Регистрация</button>
+          </div>
+        </div>
+      </header>
+      <section class="main-offer">
+        <div class="container">
+          <div class="main-offer__wrapper">
+            <h1 class="main-offer__title">Телеграм-бот для автоматизации работы егерей, охотников и&nbspлесников</h1>
+            <img src="./images/iPhone-12.png" alt="iPhone" class="main-offer__image" />
+            <p class="main-offer__description">Оперативное получение информации с&nbspфотоловушек на&nbspсмартфон в&nbspрежиме реального времени</p>
+            <a href="#" class="button button_uppercase | main-offer__link">Перейти в бота</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-advantages">
+        <div class="container">
+          <h2 class="main-advantages__title">Основные преимущества</h2>
+          <p class="main-advantages__description">Бот помогает автоматизировать и&nbspоблегчить работу лесников, егерей и&nbspохотников, вне&nbspзависимости от&nbspтерритории, погодных условий и&nbspместонахождения.</p>
+          <div class="main-advantages__list">
+            <div class="item-advantages | main-advantages__item">
+              <h3 class="item-advantages__title">Экономия времени и&nbspсредств</h3>
+              <p class="item-advantages__text">Экономия времени при поездках на труднодоступные участки</p>
+            </div>
+            <div class="item-advantages | main-advantages__item">
+              <h3 class="item-advantages__title">Наблюдение в режиме Online</h3>
+              <p class="item-advantages__text">Наблюдение в реальном времени за дкими животными</p>
+            </div>
+            <div class="item-advantages | main-advantages__item">
+              <h3 class="item-advantages__title">Нужен только смартфон</h3>
+              <p class="item-advantages__text">Для получения информации из телеграм-бота нужен только смартфон</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-quiz">
+        <div class="container">
+          <h2 class="main-quiz__title">Как работает <br />телеграм-бот&nbsp?</h2>
+          <!-- Slider main container -->
+          <div class="swiper | main-quiz__swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="item-quiz | swiper-slide">
+                <span class="item-quiz__step">Шаг 1.</span>
+                <h3 class="item-quiz__title">Регистрация</h3>
+                <div class="item-quiz__description">Переходим по ссылке на сайте или пользуемся строкой поиска в телеграме “ForestOwerwotch_Bot”</div>
+                <img class="item-quiz__image" src="./images/card-front.png" alt="Шаг 1." />
+              </div>
+              <div class="item-quiz | swiper-slide">
+                <span class="item-quiz__step">Шаг 2.</span>
+                <h3 class="item-quiz__title">Получение инструкции</h3>
+                <div class="item-quiz__description">Для получения инструкции по использованию бота нажмите “start”</div>
+                <img class="item-quiz__image" src="./images/card-message.png" alt="Шаг 2." />
+              </div>
+              <div class="item-quiz | swiper-slide">
+                <span class="item-quiz__step">Шаг 3.</span>
+                <h3 class="item-quiz__title">Регистрация</h3>
+                <div class="item-quiz__description">Переходим по ссылке на сайте или пользуемся строкой поиска в телеграме “ForestOwerwotch_Bot”</div>
+                <img class="item-quiz__image" src="./images/card-setting.png" alt="Шаг 3." />
+              </div>
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-navigation">
+              <div class="swiper-button-prev">
+                <svg width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="20" cy="20.8467" r="19.5" stroke="black" stroke-opacity="0.49" />
+                  <path d="M24.5 10.8467L15 20.3467L24.5 29.8467" stroke="black" />
+                </svg>
+              </div>
+              <div class="swiper-button-next">
+                <svg width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="20" cy="20.8467" r="19.5" stroke="black" stroke-opacity="0.49" />
+                  <path d="M15 11.3467L24.5 20.8467L15 30.3467" stroke="black" />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
